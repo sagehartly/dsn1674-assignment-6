@@ -55,6 +55,18 @@ header {
   top: 0;
 }
 
+header:hover .head-left {
+  left: 0.5em;
+}
+
+header:hover .head-right {
+  right: 0.5em;
+}
+
+header:hover .brain {
+  top: 1.5em;
+}
+
 h1 {
   background-color: #1a2230;
   color: white;
