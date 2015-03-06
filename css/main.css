@@ -26,7 +26,6 @@ header {
   padding: 0;
   margin-left: auto;
   margin-right: auto;
-  transition: all 200ms linear;
 }
 
 .body {
@@ -57,15 +56,18 @@ header {
 }
 
 header:hover .head-left {
-  left: 0.25em;
+  left: 0.15em;
+  transition: all 200ms linear;
 }
 
 header:hover .head-right {
-  right: 0.25em;
+  right: 0.15em;
+  transition: all 200ms linear;
 }
 
 header:hover .brain {
   top: 1.5em;
+  transition: all 200ms linear;
 }
 
 h1 {
